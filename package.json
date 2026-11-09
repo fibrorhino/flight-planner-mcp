@@ -1,0 +1,13 @@
+{
+  "name": "flight-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Remote MCP server for multi-city flight planning via SerpApi Google Flights",
+  "engines": { "node": "22.x" },
+  "scripts": { "test": "node test/run.mjs" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "3.25.76"
+  }
+}
