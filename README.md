@@ -2,7 +2,7 @@
 
 A remote MCP server that lets Claude search Google Flights through SerpApi, including multi-city trips priced as one ticket, and check connection timing.
 
-Hosted on Vercel as project `flight-planner-mcp`. The connector URL has the form:
+Hosted on Vercel as project `flight-planner-mcp`, linked to this repo: every push to `main` deploys to production automatically. The connector URL has the form:
 
     https://flight-planner-mcp-fibrorhinos-projects.vercel.app/<MCP_SECRET>/mcp
 
